@@ -4,7 +4,7 @@ provider "aws" {
 
 #tfsec:ignore:aws-s3-enable-bucket-logging
 resource "aws_s3_bucket" "my-bucket" {
-  bucket = "my-test-bucket-098232123"
+  bucket = "my-test-bucket-04567848"
 }
 
 resource "aws_s3_bucket_ownership_controls" "example" {
